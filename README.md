@@ -1,4 +1,4 @@
-# MethodTraceAnalyzer-ClodeFreak-
+# MethodTraceAnalyzer-CodeFreak-
 
 # A Program to view logs interactively.
 
