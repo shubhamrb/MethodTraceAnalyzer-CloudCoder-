@@ -21,7 +21,7 @@
         <pathelement location="lib/orsonpdf-1.6-eval.jar"/>
         <pathelement location="lib/servlet.jar"/>
         <pathelement location="lib/swtgraphics2d.jar"/>
-        <pathelement location="methodTracAnalyser.jar"/>
+        <pathelement location="MethodTraceAnalyser.jar"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
@@ -60,7 +60,7 @@
         <antcall target="build"/>
     </target>
     <target name="StartWindow">
-        <java classname="gui.StartWindow" failonerror="true" fork="yes">
+        <java classname="graphicalUserInterface.StartWindow" failonerror="true" fork="yes">
             <classpath refid="MethodTraceAnalyser.classpath"/>
         </java>
     </target>

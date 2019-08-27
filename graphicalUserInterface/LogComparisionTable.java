@@ -1,6 +1,5 @@
 package graphicalUserInterface;
 
-import java.awt.Color;
 import java.awt.Font;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,10 +8,7 @@ import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.table.JTableHeader;
-
 import dataparser.CommonMethods;
-import dataparser.LogTraceMethod;
 import graphicalUserInterface.ButtonRenderer;
 
 //return the two tables comparing the methods of two log files

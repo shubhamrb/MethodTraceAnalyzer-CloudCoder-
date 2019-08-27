@@ -7,7 +7,7 @@ import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 
 import dataparser.DataParser;
-import gui.TableBuilder;
+import graphicalUserInterface.LogTableCreator;
 
 import java.awt.SystemColor;
 
@@ -32,10 +32,11 @@ public class LogInfoFrame extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		// Building table of analyzed log file
-		TableBuilder table = new TableBuilder(dataParser);   //Populate data into table
+		LogTableCreator table = new LogTableCreator(dataParser);   //Populate data into table
 	    this.setSize(300, 300);
 	    this.add(new JScrollPane(table.getTable()));
 	    this.setVisible(true);
+	    
 		
 	}
 

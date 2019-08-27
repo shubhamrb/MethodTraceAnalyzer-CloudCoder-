@@ -27,7 +27,7 @@ import org.jfree.chart.ChartPanel;
 import dataparser.DataParser;
 import dataparser.LogTraceMethod;
 import graphicalUserInterface.ButtonRenderer;
-import gui.ChartBuilder;
+import graphicalUserInterface.LogChartCreator;;
 
 
 // This jFrame is used to show the graphs using the ChartBuilder class
@@ -48,7 +48,7 @@ public class LogChartFrame extends JFrame {
 		//contentPane.setSize(500, 5000);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
-		ChartBuilder chart = new ChartBuilder(dataParser);
+		LogChartCreator chart = new LogChartCreator(dataParser);
 		ChartPanel cp = new ChartPanel(chart.getChart());
 		cp.addChartMouseListener(new ChartMouseListener() {
 			

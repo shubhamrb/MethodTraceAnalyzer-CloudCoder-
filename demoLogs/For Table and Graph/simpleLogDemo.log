@@ -1,0 +1,183 @@
+                Trace Summary
+
+Service Level :
+        JRE 1.7.0 Windows amd64-64 build  (pwa6470_27sr2-20141026_01(SR2) )
+
+JVM Start-up Params :
+-Xoptionsfile=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin\compressedrefs\options.default
+-Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+-Xjcl:jclse7b_27
+-Dcom.ibm.oti.vm.bootstrap.library.path=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin\compressedrefs;H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin
+-Dsun.boot.library.path=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin\compressedrefs;H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin
+-Djava.library.path=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin\compressedrefs;H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\GTK2-Runtime\lib;C:\Program Files\Amazon\AWSCLI\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\oj\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\oj\AppData\Local\Programs\Python\Python36-32\;C:\Program Files (x86)\Java\jdk1.7.0_02\bin;C:\Users\oj\AppData\Roaming\npm;C:\Users\oj\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Program Files\Amazon\AWSCLI;
+-Djava.home=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre
+-Djava.ext.dirs=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\lib\ext
+-Duser.dir=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\bin
+-Djava.runtime.version=pwa6470_27sr2-20141026_01 (SR2)
+-Dconsole.encoding=Cp437
+-Djava.class.path=C:\xampp\tomcat\lib\servlet-api.jar;c:\libexample
+-Djava.class.path=.
+-Xtrace:none
+-Xtrace:methods={java/util/Scanner.*},maximal=mt,output=trace
+-Dsun.java.command=DemoAvg
+-Dsun.java.launcher=SUN_STANDARD
+_org.apache.harmony.vmi.portlib
+
+
+Activation Info :
+        FORMAT=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\lib;.
+        MAXIMAL=all{level1}
+        EXCEPTION=j9mm{gclogger}
+        MAXIMAL=all{level2}
+        none
+        maximal=mt
+        output=trace
+
+Sys Processor Info :
+        Arch family AMD64
+        Processor Sub-type Opteron
+        Num Processors 4
+        Big Endian false
+        Word size 64
+        Using Trace Counter J9 timer
+
+Active Threads :
+        0x26e0500  main
+
+JVM started      : 19:04:23.947000000
+
+Last buffer write: 19:04:29.263220989
+
+First tracepoint:  19:04:24.092287542
+
+Last tracepoint :  19:04:29.263220136
+
+
+                Trace Formatted Data 
+
+J9 timer(UTC)        ThreadID               TP id     Type        TraceEntry 
+19:04:24.092291382          *0x26e0500         mt.3    Entry      >java/util/Scanner.<clinit>()V bytecode static method
+19:04:24.096034556           0x26e0500         mt.9    Exit       <java/util/Scanner.<clinit>()V bytecode static method
+19:04:24.096040955           0x26e0500         mt.0    Entry      >java/util/Scanner.<init>(Ljava/io/InputStream;)V bytecode method, this = 0xfff347c0
+19:04:24.096078071           0x26e0500         mt.0    Entry      >java/util/Scanner.<init>(Ljava/lang/Readable;Ljava/util/regex/Pattern;)V bytecode method, this = 0xfff347c0
+19:04:24.096519624           0x26e0500         mt.0    Entry      >java/util/Scanner.useLocale(Ljava/util/Locale;)Ljava/util/Scanner; bytecode method, this = 0xfff347c0
+19:04:24.129613907           0x26e0500         mt.6    Exit       <java/util/Scanner.useLocale(Ljava/util/Locale;)Ljava/util/Scanner; bytecode method
+19:04:24.129615614           0x26e0500         mt.6    Exit       <java/util/Scanner.<init>(Ljava/lang/Readable;Ljava/util/regex/Pattern;)V bytecode method
+19:04:24.129616040           0x26e0500         mt.6    Exit       <java/util/Scanner.<init>(Ljava/io/InputStream;)V bytecode method
+19:04:24.129620307           0x26e0500         mt.0    Entry      >java/util/Scanner.nextInt()I bytecode method, this = 0xfff347c0
+19:04:24.129621160           0x26e0500         mt.0    Entry      >java/util/Scanner.nextInt(I)I bytecode method, this = 0xfff347c0
+19:04:24.129622440           0x26e0500         mt.0    Entry      >java/util/Scanner.setRadix(I)V bytecode method, this = 0xfff347c0
+19:04:24.129622866           0x26e0500         mt.6    Exit       <java/util/Scanner.setRadix(I)V bytecode method
+19:04:24.129624146           0x26e0500         mt.0    Entry      >java/util/Scanner.clearCaches()V bytecode method, this = 0xfff347c0
+19:04:24.129625853           0x26e0500         mt.6    Exit       <java/util/Scanner.clearCaches()V bytecode method
+19:04:24.129626706           0x26e0500         mt.0    Entry      >java/util/Scanner.integerPattern()Ljava/util/regex/Pattern; bytecode method, this = 0xfff347c0
+19:04:24.129627559           0x26e0500         mt.0    Entry      >java/util/Scanner.buildIntegerPatternString()Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:24.129697952           0x26e0500         mt.6    Exit       <java/util/Scanner.buildIntegerPatternString()Ljava/lang/String; bytecode method
+19:04:24.132987627           0x26e0500         mt.6    Exit       <java/util/Scanner.integerPattern()Ljava/util/regex/Pattern; bytecode method
+19:04:24.132991040           0x26e0500         mt.0    Entry      >java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:24.132992747           0x26e0500         mt.0    Entry      >java/util/Scanner.ensureOpen()V bytecode method, this = 0xfff347c0
+19:04:24.132993174           0x26e0500         mt.6    Exit       <java/util/Scanner.ensureOpen()V bytecode method
+19:04:24.132994027           0x26e0500         mt.0    Entry      >java/util/Scanner.clearCaches()V bytecode method, this = 0xfff347c0
+19:04:24.132994453           0x26e0500         mt.6    Exit       <java/util/Scanner.clearCaches()V bytecode method
+19:04:24.132995307           0x26e0500         mt.0    Entry      >java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:24.133018771           0x26e0500         mt.6    Exit       <java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:24.133020051           0x26e0500         mt.0    Entry      >java/util/Scanner.readInput()V bytecode method, this = 0xfff347c0
+19:04:25.714783276           0x26e0500         mt.6    Exit       <java/util/Scanner.readInput()V bytecode method
+19:04:25.714784982           0x26e0500         mt.0    Entry      >java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:25.714973549           0x26e0500         mt.6    Exit       <java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:25.714974402           0x26e0500         mt.6    Exit       <java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:25.714988907           0x26e0500         mt.6    Exit       <java/util/Scanner.nextInt()I bytecode method
+19:04:25.714988907           0x26e0500         mt.6    Exit       <java/util/Scanner.nextInt(I)I bytecode method
+19:04:25.715258105           0x26e0500         mt.0    Entry      >java/util/Scanner.nextDouble()D bytecode method, this = 0xfff347c0
+19:04:25.715258959           0x26e0500         mt.0    Entry      >java/util/Scanner.setRadix(I)V bytecode method, this = 0xfff347c0
+19:04:25.715259385           0x26e0500         mt.6    Exit       <java/util/Scanner.setRadix(I)V bytecode method
+19:04:25.715259812           0x26e0500         mt.0    Entry      >java/util/Scanner.clearCaches()V bytecode method, this = 0xfff347c0
+19:04:25.715260238           0x26e0500         mt.6    Exit       <java/util/Scanner.clearCaches()V bytecode method
+19:04:25.715261518           0x26e0500         mt.0    Entry      >java/util/Scanner.floatPattern()Ljava/util/regex/Pattern; bytecode method, this = 0xfff347c0
+19:04:25.715262372           0x26e0500         mt.0    Entry      >java/util/Scanner.buildFloatAndDecimalPattern()V bytecode method, this = 0xfff347c0
+19:04:25.723441979           0x26e0500         mt.6    Exit       <java/util/Scanner.buildFloatAndDecimalPattern()V bytecode method
+19:04:25.723443259           0x26e0500         mt.6    Exit       <java/util/Scanner.floatPattern()Ljava/util/regex/Pattern; bytecode method
+19:04:25.723444539           0x26e0500         mt.0    Entry      >java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:25.723445392           0x26e0500         mt.0    Entry      >java/util/Scanner.ensureOpen()V bytecode method, this = 0xfff347c0
+19:04:25.723445819           0x26e0500         mt.6    Exit       <java/util/Scanner.ensureOpen()V bytecode method
+19:04:25.723446245           0x26e0500         mt.0    Entry      >java/util/Scanner.clearCaches()V bytecode method, this = 0xfff347c0
+19:04:25.723446672           0x26e0500         mt.0    Entry      >java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:25.723446672           0x26e0500         mt.6    Exit       <java/util/Scanner.clearCaches()V bytecode method
+19:04:25.723470563           0x26e0500         mt.6    Exit       <java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:25.723475255           0x26e0500         mt.0    Entry      >java/util/Scanner.readInput()V bytecode method, this = 0xfff347c0
+19:04:26.928218430           0x26e0500         mt.6    Exit       <java/util/Scanner.readInput()V bytecode method
+19:04:26.928220563           0x26e0500         mt.0    Entry      >java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:26.928364761           0x26e0500         mt.6    Exit       <java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:26.928365614           0x26e0500         mt.6    Exit       <java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:26.928369027           0x26e0500         mt.0    Entry      >java/util/Scanner.processFloatToken(Ljava/lang/String;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:26.928426194           0x26e0500         mt.6    Exit       <java/util/Scanner.processFloatToken(Ljava/lang/String;)Ljava/lang/String; bytecode method
+19:04:26.929325085           0x26e0500         mt.6    Exit       <java/util/Scanner.nextDouble()D bytecode method
+19:04:26.929508959           0x26e0500         mt.0    Entry      >java/util/Scanner.nextDouble()D bytecode method, this = 0xfff347c0
+19:04:26.929510238           0x26e0500         mt.0    Entry      >java/util/Scanner.setRadix(I)V bytecode method, this = 0xfff347c0
+19:04:26.929510665           0x26e0500         mt.6    Exit       <java/util/Scanner.setRadix(I)V bytecode method
+19:04:26.929526450           0x26e0500         mt.0    Entry      >java/util/Scanner.clearCaches()V bytecode method, this = 0xfff347c0
+19:04:26.929526877           0x26e0500         mt.6    Exit       <java/util/Scanner.clearCaches()V bytecode method
+19:04:26.929527303           0x26e0500         mt.0    Entry      >java/util/Scanner.floatPattern()Ljava/util/regex/Pattern; bytecode method, this = 0xfff347c0
+19:04:26.929527730           0x26e0500         mt.6    Exit       <java/util/Scanner.floatPattern()Ljava/util/regex/Pattern; bytecode method
+19:04:26.929528156           0x26e0500         mt.0    Entry      >java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:26.929528583           0x26e0500         mt.0    Entry      >java/util/Scanner.ensureOpen()V bytecode method, this = 0xfff347c0
+19:04:26.929529010           0x26e0500         mt.0    Entry      >java/util/Scanner.clearCaches()V bytecode method, this = 0xfff347c0
+19:04:26.929529010           0x26e0500         mt.6    Exit       <java/util/Scanner.ensureOpen()V bytecode method
+19:04:26.929529436           0x26e0500         mt.6    Exit       <java/util/Scanner.clearCaches()V bytecode method
+19:04:26.929529863           0x26e0500         mt.0    Entry      >java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:26.929566979           0x26e0500         mt.6    Exit       <java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:26.929567406           0x26e0500         mt.0    Entry      >java/util/Scanner.readInput()V bytecode method, this = 0xfff347c0
+19:04:27.730295221           0x26e0500         mt.6    Exit       <java/util/Scanner.readInput()V bytecode method
+19:04:27.730301194           0x26e0500         mt.0    Entry      >java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:27.730466723           0x26e0500         mt.6    Exit       <java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:27.730467576           0x26e0500         mt.6    Exit       <java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:27.730468003           0x26e0500         mt.0    Entry      >java/util/Scanner.processFloatToken(Ljava/lang/String;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:27.730509812           0x26e0500         mt.6    Exit       <java/util/Scanner.processFloatToken(Ljava/lang/String;)Ljava/lang/String; bytecode method
+19:04:27.730517064           0x26e0500         mt.6    Exit       <java/util/Scanner.nextDouble()D bytecode method
+19:04:27.730682593           0x26e0500         mt.0    Entry      >java/util/Scanner.nextDouble()D bytecode method, this = 0xfff347c0
+19:04:27.730683873           0x26e0500         mt.0    Entry      >java/util/Scanner.setRadix(I)V bytecode method, this = 0xfff347c0
+19:04:27.730684300           0x26e0500         mt.6    Exit       <java/util/Scanner.setRadix(I)V bytecode method
+19:04:27.730685153           0x26e0500         mt.6    Exit       <java/util/Scanner.clearCaches()V bytecode method
+19:04:27.730685153           0x26e0500         mt.0    Entry      >java/util/Scanner.clearCaches()V bytecode method, this = 0xfff347c0
+19:04:27.730686006           0x26e0500         mt.6    Exit       <java/util/Scanner.floatPattern()Ljava/util/regex/Pattern; bytecode method
+19:04:27.730686006           0x26e0500         mt.0    Entry      >java/util/Scanner.floatPattern()Ljava/util/regex/Pattern; bytecode method, this = 0xfff347c0
+19:04:27.730686860           0x26e0500         mt.0    Entry      >java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:27.730687286           0x26e0500         mt.6    Exit       <java/util/Scanner.ensureOpen()V bytecode method
+19:04:27.730687286           0x26e0500         mt.0    Entry      >java/util/Scanner.ensureOpen()V bytecode method, this = 0xfff347c0
+19:04:27.730687713           0x26e0500         mt.0    Entry      >java/util/Scanner.clearCaches()V bytecode method, this = 0xfff347c0
+19:04:27.730688139           0x26e0500         mt.6    Exit       <java/util/Scanner.clearCaches()V bytecode method
+19:04:27.730688566           0x26e0500         mt.0    Entry      >java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:27.730708191           0x26e0500         mt.6    Exit       <java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:27.730709044           0x26e0500         mt.0    Entry      >java/util/Scanner.readInput()V bytecode method, this = 0xfff347c0
+19:04:28.482127986           0x26e0500         mt.6    Exit       <java/util/Scanner.readInput()V bytecode method
+19:04:28.482129692           0x26e0500         mt.0    Entry      >java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:28.482256825           0x26e0500         mt.6    Exit       <java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:28.482257679           0x26e0500         mt.6    Exit       <java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:28.482258532           0x26e0500         mt.0    Entry      >java/util/Scanner.processFloatToken(Ljava/lang/String;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:28.482306740           0x26e0500         mt.6    Exit       <java/util/Scanner.processFloatToken(Ljava/lang/String;)Ljava/lang/String; bytecode method
+19:04:28.482316126           0x26e0500         mt.6    Exit       <java/util/Scanner.nextDouble()D bytecode method
+19:04:28.482455204           0x26e0500         mt.0    Entry      >java/util/Scanner.nextDouble()D bytecode method, this = 0xfff347c0
+19:04:28.482456911           0x26e0500         mt.0    Entry      >java/util/Scanner.setRadix(I)V bytecode method, this = 0xfff347c0
+19:04:28.482457337           0x26e0500         mt.6    Exit       <java/util/Scanner.setRadix(I)V bytecode method
+19:04:28.482458191           0x26e0500         mt.0    Entry      >java/util/Scanner.clearCaches()V bytecode method, this = 0xfff347c0
+19:04:28.482458617           0x26e0500         mt.6    Exit       <java/util/Scanner.clearCaches()V bytecode method
+19:04:28.482459044           0x26e0500         mt.0    Entry      >java/util/Scanner.floatPattern()Ljava/util/regex/Pattern; bytecode method, this = 0xfff347c0
+19:04:28.482459470           0x26e0500         mt.6    Exit       <java/util/Scanner.floatPattern()Ljava/util/regex/Pattern; bytecode method
+19:04:28.482459897           0x26e0500         mt.0    Entry      >java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:28.482464163           0x26e0500         mt.0    Entry      >java/util/Scanner.ensureOpen()V bytecode method, this = 0xfff347c0
+19:04:28.482464590           0x26e0500         mt.6    Exit       <java/util/Scanner.ensureOpen()V bytecode method
+19:04:28.482465017           0x26e0500         mt.0    Entry      >java/util/Scanner.clearCaches()V bytecode method, this = 0xfff347c0
+19:04:28.482465443           0x26e0500         mt.6    Exit       <java/util/Scanner.clearCaches()V bytecode method
+19:04:28.482465443           0x26e0500         mt.0    Entry      >java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:28.482534129           0x26e0500         mt.6    Exit       <java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:28.482535409           0x26e0500         mt.0    Entry      >java/util/Scanner.readInput()V bytecode method, this = 0xfff347c0
+19:04:29.258637372           0x26e0500         mt.6    Exit       <java/util/Scanner.readInput()V bytecode method
+19:04:29.258639078           0x26e0500         mt.0    Entry      >java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:29.258823378           0x26e0500         mt.6    Exit       <java/util/Scanner.getCompleteTokenInBuffer(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:29.258824232           0x26e0500         mt.6    Exit       <java/util/Scanner.next(Ljava/util/regex/Pattern;)Ljava/lang/String; bytecode method
+19:04:29.258824658           0x26e0500         mt.0    Entry      >java/util/Scanner.processFloatToken(Ljava/lang/String;)Ljava/lang/String; bytecode method, this = 0xfff347c0
+19:04:29.258899744           0x26e0500         mt.6    Exit       <java/util/Scanner.processFloatToken(Ljava/lang/String;)Ljava/lang/String; bytecode method
+19:04:29.258906569           0x26e0500         mt.6    Exit       <java/util/Scanner.nextDouble()D bytecode method
+19:04:29.258912116           0x26e0500         mt.0    Entry      >java/util/Scanner.close()V bytecode method, this = 0xfff347c0
+19:04:29.258927901           0x26e0500         mt.6    Exit       <java/util/Scanner.close()V bytecode method
+19:04:29.263220136           0x26e0500         dg.262  Debug       ***** Thread termination - trace purged *****

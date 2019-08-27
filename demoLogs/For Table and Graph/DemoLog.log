@@ -1,0 +1,66 @@
+                Trace Summary
+
+Service Level :
+        JRE 1.8.0 Windows 10 amd64-64 (build 1.8.0_181-b13)
+
+JVM Start-up Params :
+-Xoptionsfile=C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\jre\bin\compressedrefs\options.default
+-Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+-Xjcl:jclse7b_29
+-Dcom.ibm.oti.vm.bootstrap.library.path=C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\jre\bin\compressedrefs;C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\jre\bin
+-Dsun.boot.library.path=C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\jre\bin\compressedrefs;C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\jre\bin
+-Djava.library.path=C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\jre\bin\compressedrefs;C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\jre\bin;C:\Windows\system32;C:\Windows;C:/Users/Dell pc/Desktop/IBM hackathon/OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)/jdk8u181-b13/bin/../jre/bin/j9vm;C:/Users/Dell pc/Desktop/IBM hackathon/OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)/jdk8u181-b13/bin/../jre/bin;C:/Users/Dell pc/Desktop/IBM hackathon/OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)/jdk8u181-b13/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\bin;C:\Users\Dell pc\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell pc\AppData\Local\GitHubDesktop\bin;;C:\Users\Dell pc\Desktop;;.
+-Djava.home=C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\jre
+-Djava.ext.dirs=C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\jre\lib\ext
+-Duser.dir=C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)
+-Djava.class.path=.
+-Xtrace:none
+-Xtrace:methods=WorldEx,trigger=method{WorldEx,jstacktrace},maximal=mt,output=WorldExTrace.trc
+-Dsun.java.command=WorldEx
+-Dsun.java.launcher=SUN_STANDARD
+
+
+Activation Info :
+        FORMAT=C:\Users\Dell pc\Desktop\IBM hackathon\OpenJDK8-OPENJ9_x64_Windows_jdk8u181-b13_openj9-0.9.0 (1)\jdk8u181-b13\jre\lib;.
+        MAXIMAL=all{level1}
+        EXCEPTION=j9mm{gclogger}
+        MAXIMAL=all{level2}
+        none
+        methods=WorldEx
+        trigger={method{WorldEx,jstacktrace}}
+        maximal=mt
+        output=WorldExTrace.trc
+
+Sys Processor Info :
+        Arch family AMD64
+        Processor Sub-type Opteron
+        Num Processors 4
+        Big Endian false
+        Word size 64
+        Using Trace Counter J9 timer
+
+Active Threads :
+        0x2ab6700  main
+
+JVM started      : 18:56:41.481000000
+
+Last buffer write: 18:56:41.606007675
+
+First tracepoint:  18:56:41.585285818
+
+Last tracepoint :  18:56:41.606006944
+
+
+                Trace Formatted Data 
+
+J9 timer(UTC)        ThreadID               TP id     Type        TraceEntry 
+18:56:41.585288011          *0x2ab6700         mt.3    Entry      >WorldEx.main([Ljava/lang/String;)V bytecode static method
+18:56:41.585289108           0x2ab6700  j9trc_aux.0    Event       jstacktrace:
+18:56:41.585292763           0x2ab6700  j9trc_aux.1    Event       [1] WorldEx.main (WorldEx.java:3)
+18:56:41.585294590           0x2ab6700         mt.3    Entry      >WorldEx.display([I)V bytecode static method
+18:56:41.585294956           0x2ab6700  j9trc_aux.0    Event       jstacktrace:
+18:56:41.585296052           0x2ab6700  j9trc_aux.1    Event       [1] WorldEx.display (WorldEx.java:8)
+18:56:41.585296783           0x2ab6700  j9trc_aux.1    Event       [2] WorldEx.main (WorldEx.java:4)
+18:56:41.585951388           0x2ab6700         mt.25   Exit      *<WorldEx.display([I)V bytecode static method, exception thrown
+18:56:41.585952850           0x2ab6700         mt.25   Exit      *<WorldEx.main([Ljava/lang/String;)V bytecode static method, exception thrown
+18:56:41.606006944           0x2ab6700         dg.262  Debug       ***** Thread termination - trace purged *****

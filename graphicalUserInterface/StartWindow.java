@@ -17,7 +17,6 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import dataparser.*;
 
 import java.awt.BorderLayout;
-import java.awt.Component;
 import java.awt.Container;
 
 import javax.swing.JButton;
@@ -33,7 +32,6 @@ import dataparser.CommonMethods;
 import dataparser.InvalidLogFileException;
 import graphicalUserInterface.LogInfoFrame;
 import graphicalUserInterface.LogComparisionTable;
-import gui.FrameForChart;
 import graphicalUserInterface.StartWindow;;
 
 public class StartWindow {
@@ -177,8 +175,8 @@ public class StartWindow {
 	// Takes the parser and displays the table and graph using the FrameForTable and GraphViewer classes 
 	private void showLogTableAndGraph(DataParser dataParser, String fileName){
 		final LogInfoFrame frameForResult = new LogInfoFrame(dataParser);
-		final FrameForChart graphViewer = new FrameForChart(dataParser);
-		graphViewer.setDefaultCloseOperation(FrameForChart.DISPOSE_ON_CLOSE);
+		final LogChartFrame graphViewer = new LogChartFrame(dataParser);
+		graphViewer.setDefaultCloseOperation(LogChartFrame.DISPOSE_ON_CLOSE);
 		frameForResult.setDefaultCloseOperation(LogInfoFrame.DISPOSE_ON_CLOSE);
 		frameForResult.setTitle(fileName+ " Total Tracetime:"+dataParser.getTraceTime());
 		graphViewer.setTitle("Graph For "+fileName);

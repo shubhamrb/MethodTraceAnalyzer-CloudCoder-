@@ -1,0 +1,77 @@
+                Trace Summary
+
+Service Level :
+        JRE 1.7.0 Windows amd64-64 build  (pwa6470_27sr2-20141026_01(SR2) )
+
+JVM Start-up Params :
+-Xoptionsfile=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin\compressedrefs\options.default
+-Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+-Xjcl:jclse7b_27
+-Dcom.ibm.oti.vm.bootstrap.library.path=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin\compressedrefs;H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin
+-Dsun.boot.library.path=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin\compressedrefs;H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin
+-Djava.library.path=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin\compressedrefs;H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\GTK2-Runtime\lib;C:\Program Files\Amazon\AWSCLI\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\oj\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\oj\AppData\Local\Programs\Python\Python36-32\;C:\Program Files (x86)\Java\jdk1.7.0_02\bin;C:\Users\oj\AppData\Roaming\npm;C:\Users\oj\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin
+-Djava.home=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre
+-Djava.ext.dirs=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\lib\ext
+-Duser.dir=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\bin
+-Djava.runtime.version=pwa6470_27sr2-20141026_01 (SR2)
+-Dconsole.encoding=Cp437
+-Djava.class.path=C:\xampp\tomcat\lib\servlet-api.jar;c:\libexample
+-Djava.class.path=.
+-Xtrace:none
+-Xtrace:methods={ThreadLocked.*,Thread2.*,Thread1.*,Shared.*,Util.*},maximal=mt,output=trace
+-Dsun.java.command=ThreadLocked
+-Dsun.java.launcher=SUN_STANDARD
+_org.apache.harmony.vmi.portlib
+
+
+Activation Info :
+        FORMAT=H:\IBM_DevelopmentPackage_for_Eclipse_Win_X86_64_5.2.0\eclipseDevelopmentPackage\ibm_sdk71\jre\lib;.
+        MAXIMAL=all{level1}
+        EXCEPTION=j9mm{gclogger}
+        MAXIMAL=all{level2}
+        none
+        maximal=mt
+        output=trace
+
+Sys Processor Info :
+        Arch family AMD64
+        Processor Sub-type Opteron
+        Num Processors 4
+        Big Endian false
+        Word size 64
+        Using Trace Counter J9 timer
+
+Active Threads :
+        0x3460500  main
+        0x35b4b00  Thread-6
+        0x357d900  Thread-5
+
+JVM started      : 04:42:42.466000000
+
+Last buffer write: 04:43:16.977029449
+
+First tracepoint:  04:42:42.608901408
+
+Last tracepoint :  04:42:44.613051216
+
+
+                Trace Formatted Data 
+
+J9 timer(UTC)        ThreadID               TP id     Type        TraceEntry 
+04:42:42.608903115          *0x3460500         mt.3    Entry      >ThreadLocked.main([Ljava/lang/String;)V bytecode static method
+04:42:42.609868544           0x3460500         mt.0    Entry      >Thread1.<init>(LShared;LShared;)V bytecode method, this = 0xfff32ca8
+04:42:42.609899274           0x3460500         mt.6    Exit       <Thread1.<init>(LShared;LShared;)V bytecode method
+04:42:42.610075117          *0x357d900         mt.0    Entry      >Thread1.run()V bytecode method, this = 0xfff32ca8
+04:42:42.610078958           0x357d900         mt.0    Entry      >Shared.test1(LShared;)V bytecode method, this = 0xfff31ea8
+04:42:42.610871105          *0x3460500         mt.0    Entry      >Thread2.<init>(LShared;LShared;)V bytecode method, this = 0xfff34630
+04:42:42.610917626           0x3460500         mt.6    Exit       <Thread2.<init>(LShared;LShared;)V bytecode method
+04:42:42.611323516          *0x35b4b00         mt.0    Entry      >Thread2.run()V bytecode method, this = 0xfff34630
+04:42:42.611327784           0x35b4b00         mt.0    Entry      >Shared.test2(LShared;)V bytecode method, this = 0xfff31eb8
+04:42:42.611781476          *0x357d900         mt.3    Entry      >Util.sleep(J)V bytecode static method
+04:42:42.611782757          *0x3460500         mt.3    Entry      >Util.sleep(J)V bytecode static method
+04:42:42.611782757          *0x35b4b00         mt.3    Entry      >Util.sleep(J)V bytecode static method
+04:42:43.612281263           0x35b4b00         mt.9    Exit       <Util.sleep(J)V bytecode static method
+04:42:43.612284677          *0x357d900         mt.9    Exit       <Util.sleep(J)V bytecode static method
+04:42:44.613043533          *0x3460500         mt.9    Exit       <Util.sleep(J)V bytecode static method
+04:42:44.613044814           0x3460500         mt.9    Exit       <ThreadLocked.main([Ljava/lang/String;)V bytecode static method
+04:42:44.613051216           0x3460500         dg.262  Debug       ***** Thread termination - trace purged *****

@@ -1,0 +1,99 @@
+ Trace Summary
+
+Service Level :
+        JRE 1.8.0 Windows 10 amd64-64 (build 1.8.0_181-b13)
+
+JVM Start-up Params :
+-Xoptionsfile=G:\jdk8u181-b13\jre\bin\compressedrefs\options.default
+-Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+-Xjcl:jclse7b_29
+-Dcom.ibm.oti.vm.bootstrap.library.path=G:\jdk8u181-b13\jre\bin\compressedrefs;G:\jdk8u181-b13\jre\bin
+-Dsun.boot.library.path=G:\jdk8u181-b13\jre\bin\compressedrefs;G:\jdk8u181-b13\jre\bin
+-Djava.library.path=G:\jdk8u181-b13\jre\bin\compressedrefs;G:\jdk8u181-b13\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;G:\jdk8u181-b13\bin;G:\jdk8u181-b13\jre\bin;;.
+-Djava.home=G:\jdk8u181-b13\jre
+-Djava.ext.dirs=G:\jdk8u181-b13\jre\lib\ext
+-Duser.dir=E:\Programming\sis\programs\Snake game\Snake Game
+-Djava.class.path=".;E:\Programming\sis\jars\servlet-api.jar;E:\Programming\sis\jars\ojdbc14.jar;";"E:\Programming\sis\jars\servlet-api.jar;E:\Programming\sis\jars\jsp-api.jar";E:\Programming\Projects\java_gui\Dummy\bin\com\dummy;
+-Xtrace:none
+-Xtrace:methods=Dice.*,trigger=method{Dice.*,jstacktrace},maximal=mt,output=test8.trc
+-Dsun.java.command=SnakeGame
+-Dsun.java.launcher=SUN_STANDARD
+
+
+Activation Info :
+        FORMAT=G:\jdk8u181-b13\jre\lib;.
+        MAXIMAL=all{level1}
+        EXCEPTION=j9mm{gclogger}
+        MAXIMAL=all{level2}
+        none
+        methods=Dice.*
+        trigger={method{Dice.*,jstacktrace}}
+        maximal=mt
+        output=test8.trc
+
+Sys Processor Info :
+        Arch family AMD64
+        Processor Sub-type Opteron
+        Num Processors 4
+        Big Endian false
+        Word size 64
+        Using Trace Counter J9 timer
+
+Active Threads :
+        0x2926700  main
+
+JVM started      : 16:54:49.368000000
+
+Last buffer write: 16:55:26.314641211
+
+First tracepoint:  16:54:55.570206484
+
+Last tracepoint :  16:55:23.789911262
+
+
+                Trace Formatted Data 
+
+J9 timer(UTC)        ThreadID               TP id     Type        TraceEntry 
+16:54:55.570210750          *0x2926700         mt.0    Entry      >Dice.<init>()V bytecode method, this = 0xffe72168
+16:54:55.570212030           0x2926700  j9trc_aux.0    Event       jstacktrace:
+16:54:55.570217150           0x2926700  j9trc_aux.1    Event       [1] Dice.<init> (Dice.java:5)
+16:54:55.570219283           0x2926700  j9trc_aux.1    Event       [2] SnakeGame.main (SnakeGame.java:29)
+16:54:55.570223122           0x2926700         mt.6    Exit       <Dice.<init>()V bytecode method
+16:55:05.243034129           0x2926700         mt.0    Entry      >Dice.roll()I bytecode method, this = 0xffe72168
+16:55:05.243037116           0x2926700  j9trc_aux.0    Event       jstacktrace:
+16:55:05.243046075           0x2926700  j9trc_aux.1    Event       [1] Dice.roll (Dice.java:13)
+16:55:05.243048634           0x2926700  j9trc_aux.1    Event       [2] Player.getPosition (Player.java:55)
+16:55:05.243051194           0x2926700  j9trc_aux.1    Event       [3] SnakeGame.main (SnakeGame.java:57)
+16:55:05.243883959           0x2926700         mt.6    Exit       <Dice.roll()I bytecode method
+16:55:08.836754692           0x2926700         mt.0    Entry      >Dice.roll()I bytecode method, this = 0xffe72168
+16:55:08.836756399           0x2926700  j9trc_aux.0    Event       jstacktrace:
+16:55:08.836761518           0x2926700  j9trc_aux.1    Event       [1] Dice.roll (Dice.java:13)
+16:55:08.836763225           0x2926700  j9trc_aux.1    Event       [2] Player.getPosition (Player.java:55)
+16:55:08.836778583           0x2926700  j9trc_aux.1    Event       [3] SnakeGame.main (SnakeGame.java:95)
+16:55:08.836793941           0x2926700         mt.6    Exit       <Dice.roll()I bytecode method
+16:55:11.899237201           0x2926700         mt.0    Entry      >Dice.roll()I bytecode method, this = 0xffe72168
+16:55:11.899238907           0x2926700  j9trc_aux.0    Event       jstacktrace:
+16:55:11.899248293           0x2926700  j9trc_aux.1    Event       [1] Dice.roll (Dice.java:13)
+16:55:11.899251279           0x2926700  j9trc_aux.1    Event       [2] Player.getPosition (Player.java:55)
+16:55:11.899253839           0x2926700  j9trc_aux.1    Event       [3] SnakeGame.main (SnakeGame.java:57)
+16:55:11.899274317           0x2926700         mt.6    Exit       <Dice.roll()I bytecode method
+16:55:14.993020904           0x2926700         mt.0    Entry      >Dice.roll()I bytecode method, this = 0xffe72168
+16:55:14.993023464           0x2926700  j9trc_aux.0    Event       jstacktrace:
+16:55:14.993030290           0x2926700  j9trc_aux.1    Event       [1] Dice.roll (Dice.java:13)
+16:55:14.993032849           0x2926700  j9trc_aux.1    Event       [2] Player.getPosition (Player.java:55)
+16:55:14.993035836           0x2926700  j9trc_aux.1    Event       [3] SnakeGame.main (SnakeGame.java:95)
+16:55:14.993071672           0x2926700         mt.6    Exit       <Dice.roll()I bytecode method
+16:55:18.102404863           0x2926700         mt.0    Entry      >Dice.roll()I bytecode method, this = 0xffe72168
+16:55:18.102406996           0x2926700  j9trc_aux.0    Event       jstacktrace:
+16:55:18.102413395           0x2926700  j9trc_aux.1    Event       [1] Dice.roll (Dice.java:13)
+16:55:18.102415955           0x2926700  j9trc_aux.1    Event       [2] Player.getPosition (Player.java:55)
+16:55:18.102418088           0x2926700  j9trc_aux.1    Event       [3] SnakeGame.main (SnakeGame.java:57)
+16:55:18.102455204           0x2926700         mt.6    Exit       <Dice.roll()I bytecode method
+16:55:21.102390358           0x2926700         mt.0    Entry      >Dice.roll()I bytecode method, this = 0xfff033d8
+16:55:21.102392918           0x2926700  j9trc_aux.0    Event       jstacktrace:
+16:55:21.102398464           0x2926700  j9trc_aux.1    Event       [1] Dice.roll (Dice.java:13)
+16:55:21.102400597           0x2926700  j9trc_aux.1    Event       [2] Player.getPosition (Player.java:55)
+16:55:21.102402730           0x2926700  j9trc_aux.1    Event       [3] SnakeGame.main (SnakeGame.java:95)
+16:55:21.102435580           0x2926700         mt.6    Exit       <Dice.roll()I bytecode method
+16:55:23.789873720           0x2926700         mt.0    Entry      >Dice.roll()I bytecode method, this = 0xfff033d8
+16:55:23.789875426           0x2926700  j9trc_aux.0    Event       jstacktrace:
